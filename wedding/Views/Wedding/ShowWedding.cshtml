@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+<nav>
+    <h1>Bride: @ViewBag.onewedding.bride and Groom: @ViewBag.onewedding.groom</h1>
+    <a href="/dashboard">Dashboard</a>
+    <a href="logout">Logout</a>
+</nav>
+<h3>@ViewBag.onewedding.Date.ToString("D")</h3>
+<h3>Guests:</h3>
+<ul>
+
+   @foreach (var x in @ViewBag.onewedding.Guests)
+   {
+       <li> @x.Guest.first_name @x.Guest.last_name</li>
+      
+   }
+    
+</ul>

@@ -1,0 +1,57 @@
+﻿    <style>
+table, tr, td, th {
+   border: 1px solid black;
+}
+    </style>
+    <a href="logout">Logout</a>
+    <h2>Welcome to the Wedding Planner, @ViewBag.User.first_name! </h2>
+      
+    <table>
+        <tr>
+            <th>Wedding</th>
+            <th>Date</th> 
+            <th>Guest</th>
+            <th>Action</th>
+        </tr>
+@{
+    @foreach(var x in @ViewBag.weddings)
+    {
+    bool status = false;
+        <tr>
+            <td><a href="showawedding/@x.wedding_id">@x.bride & @x.groom</a></td>
+            <td>@x.Date.ToString("D")</td> 
+            <td>@x.Guests.Count</td>
+            @if(@x.user_id==@ViewBag.User.user_id)
+            {
+                status = true;
+                <td><a href="/deletewedding/@x.wedding_id">Delete</a></td>
+            }
+            else
+            {
+                @foreach(var item in @x.Guests)
+                {
+                    @if(item.user_id == @ViewBag.User.user_id)
+                    {
+                        status = true;
+                        <td><a href="/UNRSVP/@item.rsvp_id">UNRSVP</a></td>
+                        break;
+                    }
+                }
+            }
+        @if(status==false)
+        {
+            <td><a href="rsvp/@x.wedding_id">RSVP</a></td>
+        }   
+        </tr>
+    }
+}
+    </table>
+
+    
+    
+    <form action="weddingform" method="get">
+        <h3>
+            <button class="btn">New Wedding</button>
+        </h3>
+    </form>
+    

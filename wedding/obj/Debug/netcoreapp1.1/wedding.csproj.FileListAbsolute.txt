@@ -1,0 +1,16 @@
+C:\Users\Habib\Desktop\Assignments\NETCORE\wedding\bin\Debug\netcoreapp1.1\wedding.deps.json
+C:\Users\Habib\Desktop\Assignments\NETCORE\wedding\bin\Debug\netcoreapp1.1\wedding.runtimeconfig.json
+C:\Users\Habib\Desktop\Assignments\NETCORE\wedding\bin\Debug\netcoreapp1.1\wedding.runtimeconfig.dev.json
+C:\Users\Habib\Desktop\Assignments\NETCORE\wedding\obj\Debug\netcoreapp1.1\wedding.AssemblyInfo.cs
+C:\Users\Habib\Desktop\Assignments\NETCORE\wedding\bin\Debug\netcoreapp1.1\wedding.dll
+C:\Users\Habib\Desktop\Assignments\NETCORE\wedding\bin\Debug\netcoreapp1.1\wedding.pdb
+C:\Users\Habib\Desktop\Assignments\NETCORE\wedding\obj\Debug\netcoreapp1.1\wedding.dll
+C:\Users\Habib\Desktop\Assignments\NETCORE\wedding\obj\Debug\netcoreapp1.1\wedding.pdb
+C:\Users\ahmed\Downloads\wedding\wedding\bin\Debug\netcoreapp1.1\wedding.deps.json
+C:\Users\ahmed\Downloads\wedding\wedding\bin\Debug\netcoreapp1.1\wedding.runtimeconfig.json
+C:\Users\ahmed\Downloads\wedding\wedding\bin\Debug\netcoreapp1.1\wedding.runtimeconfig.dev.json
+C:\Users\ahmed\Downloads\wedding\wedding\bin\Debug\netcoreapp1.1\wedding.dll
+C:\Users\ahmed\Downloads\wedding\wedding\bin\Debug\netcoreapp1.1\wedding.pdb
+C:\Users\ahmed\Downloads\wedding\wedding\obj\Debug\netcoreapp1.1\wedding.AssemblyInfo.cs
+C:\Users\ahmed\Downloads\wedding\wedding\obj\Debug\netcoreapp1.1\wedding.dll
+C:\Users\ahmed\Downloads\wedding\wedding\obj\Debug\netcoreapp1.1\wedding.pdb
