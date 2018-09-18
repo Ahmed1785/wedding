@@ -1,0 +1,31 @@
+[
+    {
+        "color": "blue",
+        "route": "/blue"
+    },
+    {
+        "color": "green",
+        "route": "/green"
+    },
+
+    {
+        "color": "red",
+        "route": "/red"
+    },
+    {
+        "color": "orange",
+        "route": "/orange"
+    },
+    {
+        "color": "yellow",
+        "route": "/yellow"
+    },
+    {
+        "color": "indigo",
+        "route": "/indigo"
+    },
+    {
+        "color": "violet",
+        "route": "/violet"
+    }
+]
